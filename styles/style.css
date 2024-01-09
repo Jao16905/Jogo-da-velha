@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.piece{
+    height: 120px;
+    width: 120px;
+    background-color: tan;
+    border: 2px solid black;
+    text-align: center;
+}
+.o::after{
+    content: "\1F9F1";
+    font-size: 50px;
+}
+.x::after{
+    content: "\1F528";
+    font-size: 50px;
+}
